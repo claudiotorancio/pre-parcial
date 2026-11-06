@@ -49,12 +49,12 @@
 }
 
 .top-card-img1 {
-    background-image: url(/img/sillas.jpg);
+    background-image: url(../../img/sillas.jpg);
     cursor: pointer;
 }
 
 .top-card-img2 {
-    background-image: url(/img/computadoras.jpg);
+    background-image: url(../../img/computadoras.jpg);
     cursor: pointer;
 }
 
