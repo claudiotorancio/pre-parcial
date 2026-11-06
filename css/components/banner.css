@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+    background-image: url(/img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 0;
+    width: 100%;
+    min-height: calc(100vh - 3.5rem);
+    display: flex;
+    align-items: center;
+}
+
+.banner-body {
+    text-align: center;
+}
+
+.banner-body span {
+    color: var(--btn-danger-color);
+}
+
+.banner-body h1 {
+    color: var(--font-color-light);
+}
+
+.banner-body a {
+    margin: 1rem 0;
+}
+
+/* Tablets y movil */
+@media (max-width:480px) {
+
+    .banner {
+        background-position: 0;
+    }
+}

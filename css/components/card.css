@@ -1,0 +1,30 @@
+.card {
+    background-color: var(--card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.card>a> img {
+    max-width: 15rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+
+}
+
+.card>a>.card-body {
+    width: 100%;
+    padding: 1rem;
+    gap: 0.5rem;
+    border-top: 1px solid var(--border-card);
+}
+
+.card>a>.card-body> small {
+    color: var(--font-color-envio);
+}

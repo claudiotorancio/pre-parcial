@@ -1,0 +1,78 @@
+.product {
+    background-color: var(--section-products-color);
+}
+
+.product>.container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 0 0 2rem;
+}
+
+.product>.container>h2 {
+    padding: 3rem 0 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+/* Seccion productos destacados */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Seccion productos estrellas */
+
+.top-card {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+
+.top-card-img1,
+.top-card-img2 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
+    width: 100%;
+    height: 200px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 1rem;
+}
+
+.top-card-img1 {
+    background-image: url(/img/sillas.jpg);
+    cursor: pointer;
+}
+
+.top-card-img2 {
+    background-image: url(/img/computadoras.jpg);
+    cursor: pointer;
+}
+
+.top-card-title {
+    color: var(--font-color-light);
+}
+
+
+/* Tablets y movil*/
+
+@media (width<=48rem) {
+    .featured {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   .top-card {
+        flex-wrap: wrap;
+
+    }
+}
